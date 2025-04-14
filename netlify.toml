@@ -3,7 +3,7 @@
   publish = ".next"
 
 [build.environment]
-  NEXT_PUBLIC_BASE_URL = "https://your-site-name.netlify.app"
+  NEXT_PUBLIC_BASE_URL = "https://zrutam.com"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs" 
