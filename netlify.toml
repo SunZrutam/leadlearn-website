@@ -1,9 +1,10 @@
 [build]
-  command = "npm run build"
+  command = "pnpm install && pnpm run build"
   publish = ".next"
 
 [build.environment]
   NEXT_PUBLIC_BASE_URL = "https://zrutam.com"
+  NPM_FLAGS = "--no-frozen-lockfile"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs" 
